@@ -1,0 +1,234 @@
+\documentclass[letterpaper,8pt]{article}
+\title{Ajay Raj}
+
+\setlength{\voffset}{0.05in}
+% \setlength{\hoffset}{0.05in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{10in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{amssymb,array}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage[margin=0.4in]{geometry}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=black
+}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-1pt}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+\setlist[itemize]{leftmargin=*}
+
+\begin{document}
+\centerline{\Large{\textbf{Ajay Raj}}}
+\centerline{408-892-6228 $\vert$ ajay.n.raj@gmail.com $\vert$ linkedin.com/in/ajaynraj}
+
+\vspace{0.1in}
+\textbf{\large{Education}}
+\normalsize
+{\renewcommand\labelitemi{}
+\begin{itemize}
+\item
+	\ressubheading{University of California, Berkeley}{}{\small{B.A. Computer Science and Data Science, Aug 2016 - May 2020, Technical GPA: 4.0}}{}
+	\begin{itemize}[topsep=3pt, noitemsep]
+		% \resitem{Relevant Coursework}
+		% \begin{itemize}
+		%	\item{\small{CS 182: Designing, Visualizing and Understanding Deep Neural Networks, INFO 159: Natural Language Processing, STAT 151A: Linear Modeling, CS 189: Introduction to Machine Learning, CS 188: Introduction to Artificial Intelligence, EECS 127: Optimization Models in Engineering, CS 161: Computer Security, Data Science 100: Principles and Techniques of Data Science}}
+		% \end{itemize}
+		\resitem{Activities \& Societies: Accel Scholars, Students Association of Applied Statistics (SAAS), Upsilon Pi Epsilon (Computer Science Honor Society), Computer Science Mentors, UC Jazz}
+	\end{itemize}
+% \item
+% 	\ressubheading{Henry M. Gunn High School}{}{\small{Aug 2012 - Jun 2016, GPA: 4.0 (Unweighted)}}{}
+
+\end{itemize}
+
+\textbf{\large{Work Experience}}
+\begin{itemize}[noitemsep]
+
+  \small{\item
+      \textbf{\small{Stripe}}}\hfill{\textit{August 2020 - Present}} \\
+      \textit{\small{Software Engineer, Risk Policy Engineering}}
+
+  \small{\item
+      \textbf{\small{Facebook}}}\hfill{\textit{Summer 2019}} \\
+      \textit{\small{Software Engineering Intern, Instagram Ads and Commerce Quality}}
+      \begin{itemize}[noitemsep,nolistsep]
+		\resitem{\small{Worked on a team that delivers surveys on IG and develops models to build trust and protect the overall quality of IG ads}}
+    		\resitem{\small{Part of the Personalized Ad Load (PAL) initiative, delivered a new sentiment survey on IG that receives 30K responses per day, including running budget experiments for ads auctions and performing initial data analysis on survey results}}
+		\resitem{\small{Implemented support in surveys for displaying dynamic (retargeted) ads, thus providing improved quality for 10\% of all IG ads previously unaccounted for}}
+		\resitem{\small{Won first place at an IG Ads CodeLove event for most functions asyncified, most files type-checked on my team}}
+    	\end{itemize}
+
+
+
+\small{\item
+    \textbf{\href{https://www.paloaltonetworks.com/}{\small{Palo Alto Networks}}}\hfill{\textit{Summer 2018}} \\
+    \textit{\small{Software Engineering Intern}}
+	\begin{itemize}[noitemsep,nolistsep]
+		\resitem{\small{Created a backend in Java Spring Boot for a ReactJS website for the customer support team to search for information about firewalls and licenses while on service calls}}
+		\resitem{\small{Wrote microservices using Python Tornado with a Apache Cassandra/Solr backend, deployed using Docker,  Kubernetes and Istio designed to handle 60 million update requests per day (70 per second) from PANW products}}
+		\resitem{\small{Won first place in a security hackathon (Capture the Flag) by exploiting the most vulnerabilities in a website}}
+	\end{itemize}
+
+% \item
+%     \textbf{\href{http://www.passage.ai/}{\small{Passage AI}}}\hfill{\textit{Summer 2017}} \\
+%     \textit{\small{Software Developer Intern}}
+% 	\begin{itemize}[noitemsep,nolistsep]
+% 		% \resitem{\small{An AI startup that has created an NLU/P platform for businesses to create conversational interfaces}}
+% 		\resitem{\small{Wrote APIs using AWS Lambda to create microservices for IBM Watson services}}
+% 		\resitem{\small{Created a version of NLU/P stack using IBM Watson services such as sentiment analysis and entity extraction}}
+% 		\resitem{\small{Extended the platform to voice-enabled conversational interfaces such as Amazon Alexa}}
+% 	\end{itemize}
+
+% \item
+%     \textbf{\href{https://troo.ly/}{Troo.ly}}\hfill{\textit{Summer 2015}} \\
+%     \textit{Software Developer Intern}
+% 	\begin{itemize}[noitemsep,nolistsep]
+% 		\resitem{\small{Created KPI dashboards with Grafana and TSDB to analyze precision/recall,  efficiency, and revenue metrics using Asana and AWS APIs}}
+% 	\end{itemize}
+
+% \item
+%     \textbf{\href{https://www.milliwaysventures.com/}{Milliways Ventures}}\hfill{\textit{Summer 2014}} \\
+%     \textit{Software Developer Intern}
+% 	\begin{itemize}[noitemsep,nolistsep]
+% 		\resitem{\small{Various projects at Trooly and Rocketship.vc including data analysis, XPath wrappers, crawlers, Django scripting, search APIs (Google+ and Pipl), Fabric API to perform git commands, and other data mining tasks.}}
+% 	\end{itemize}
+
+% \item
+%     \textbf{\href{https://troo.ly/}{Troo.ly}}\hfill{\textit{Summer 2015}} \\
+%     \textit{Software Developer Intern}
+% 	\begin{itemize}[noitemsep,nolistsep]
+% 		\resitem{\small{Created KPI dashboards with Grafana and TSDB to analyze precision/recall,  efficiency, and revenue metrics using Asana and AWS APIs. Wrote XPath wrappers, crawlers, used search APIs (Google+ and Pipl), Fabric API to perform git commands, and performed other data mining tasks.}}
+% 	\end{itemize}
+
+
+
+    \item
+	\textbf{UC Berkeley Computer Science Department}\hfill{\textit{August 2018 - May 2020}} \\
+	\textit{Undergraduate Student Instructor, CS 170: Efficient Algorithms and Intractable Problems}
+	\begin{itemize}[noitemsep,nolistsep]
+		\resitem{\small{Taught a section of 60 students topics from the most widely taken upper division CS class at UC Berkeley}}
+	\end{itemize}
+
+% 	\item
+% 	\textbf{\href{https://csmberkeley.github.io}{Computer Science Mentors}}\hfill{\textit{Aug. 2017 - Present}} \\
+% 	\textit{Senior Mentor}
+% 	\begin{itemize}[noitemsep,nolistsep]
+% 		\resitem{\small{Mentored UC Berkeley students through an introductory level CS course}}
+% 		\resitem{\small{Coordinated Junior Mentor logistics and mentored new JMs on how to teach students every week}}
+% 	\end{itemize}
+
+% \item
+% 	\textbf{\href{https://codebase.berkeley.edu/}{Codebase}}\hfill{\textit{Spring 2017}} \\
+% 	\textit{Technical Consultant}
+% 	\begin{itemize}[noitemsep,nolistsep]
+% % 		\resitem{\small{A tech consulting club that deploys college students to code for high growth startups}}
+% 		\resitem{\small{Worked with the startup Crowdbotics to create a Slack chatbot that conducts technical interviews}}
+% 	\end{itemize}}
+
+}
+
+
+\end{itemize}
+
+% \vspace{0.02in}
+
+\textbf{\large{Projects}}
+\begin{itemize}[noitemsep]
+
+\item{\small{\textbf{\href{https://devpost.com/software/megafind}{\smash{Megafind}}}}}\hfill{\textit{October 2017}} \\
+    \small{A webapp that allows professors to have a live lecture session with students that provides a real-time transcription of the lecture, with relevant terms hyperlinked to external resources, and the professor's presentation parsed and converted into notes. Built using Node.js, websockets, and Google Cloud Machine Learning API. Won 1st Place Overall and Best Education Hack at Cal Hacks 4.0, the largest collegiate hackathon in the world.}
+
+% \item{\small{\textbf{{\smash{Hermes}}}}}\hfill{\textit{January 2018 - Present}} \\
+%     \small{An interactive student experience for watching lecture videos. Allows professors to pass a URL to a webcast for a lecture and provides a rich interface for students to view the lecture, take notes, ask questions, and write code. Built using React.js. Building for use by Berkeley CS students in the spring semester of CS 61A and CS 61B.}
+
+% \item{\small{\textbf{{\smash{SAAS Education Committee}}}}\hfill{\textit{August 2018 - Present}} \\
+%     \small{
+%       Taught data science and machine learning principles to 20-30 students every week. Created lecture materials, homework, and set up Kaggle competitions. Building towards creating a DeCal (student-taught course offered to the entire student body) next semester.
+%     }
+% }
+
+% \item{\small{\textbf{\href{https://tinyurl.com/code2pix}{\smash{UIzard - Automating UI Code}}}}\hfill{\textit{Spring 2018}} \\
+%     \small{Through the Data Consulting Committee of SAAS (SAAS DC), consulted for the startup UIzard, which works on transforming UI mockups into HTML code using deep learning, to create a convolutional autoencoder using Keras and PyTorch.}}
+
+% \item{\small{\textbf{\href{http://susa.berkeley.edu/}{\underline{\smash{Facial Emotion Recognition}}}}}\hfill{\textit{Fall 2017}} \\
+%     \small{Through SUSA DC, consulted for the startup Integrated Personalized Medicine (IPMD) to use deep convolutional neural networks to classify faces based on emotion.}}
+
+\item{\small{\textbf{\href{https://devpost.com/software/bearmax}{\smash{Bearmax}}}}\hfill{\textit{November 2016}} \\
+	\small{A chatbot that uses IBM Watson to help the user diagnose themselves with a sickness without having to go to a doctor's office. Won Best Beginner Hack and Best Health App at Cal Hacks 3.0}}
+
+% \item{\textbf{\underline{OutsideIn}}\hfill{\textit{January 2017}} \\
+% 	    \small{A smart diary that uses IBM Watson's sentiment analysis to analyze and visually represent a user's emotions.}}
+
+% \item{\small{\textbf{\href{http://tinyurl.com/card-citator}{\underline{\smash{Card Citator}}}}}\hfill{\textit{September 2015}} \\
+% 		\small{Developed a Chrome extension that auto-creates debate citations using the metadata on web pages, used by my high school debate team and several other teams in the Coast Forensic League}}
+
+% \item{\small{\textbf{{\smash{Success Predictor}}}}\hfill{\textit{August 2018}} \\
+% 		\small{Created a webapp for Seabed.vc that scrapes LinkedIn for information on a company's founders and predicts the probability of success.}}
+
+% \item{\small{\textbf{\href{https://github.com/ajar98/todoist_bot}{\underline{\smash{TodoistBot}}}}}\hfill{\textit{June 2016}} \\
+% 		\small{Wrote a chatbot on the Facebook Messenger platform to add functionality to Todoist, a popular to-do list software, to allow users to view, write, complete, and receive alerts for their Todoist tasks from Messenger. Received accolades from the CEO of Todoist.}}
+
+\end{itemize}
+
+% \hspace{0.28in} \small{GitHub: github.com/ajar98}
+
+% \vspace{0.1in}
+
+\vspace{0.02in}
+
+\begin{tabular}[t]{@{}>{\raggedright\arraybackslash}p{0.60\textwidth}}
+\textbf{\large{Awards}}
+\vspace{0.1in}
+\begin{itemize}[noitemsep,nolistsep]
+    \item{\small{1st Place Overall, Cal Hacks 4.0}}
+    \item{\small{1st Place, Cal Datafest 2018}}
+    % \item{\small{Best Education Hack, Cal Hacks 4.0}}
+    \item{\small{Best Beginner Hack, Cal Hacks 3.0}}
+    % \item{\small{Best Health App, Cal Hacks 3.0}}
+    % \item{\small{1st Place, Palo Alto Networks Capture the Flag}}
+    % \item{\small{3rd Place, CSUA Hackathon}}
+    % \item{\small{Louis Armstrong Outstanding Musician Award, Gunn High School}}
+    \item{\small{Outstanding Achievement Award, CS Department, Gunn High School}}
+\end{itemize}
+\end{tabular}
+\begin{tabular}[t]{@{}>{\raggedright\arraybackslash}p{0.37\textwidth}@{}}
+\textbf{\large{Skills}}
+\begin{description}
+\resitem[Languages:]
+\small{Python, Java, Ruby, JavaScript, R, SQL, C, Scala}
+\resitem[Applications:]
+% \small{Flask, AWS, Docker, ReactJS, Spring Boot, Heroku, Selenium, Keras, Apache Cassandra, MongoDB}
+% \small{scikit-learn, Keras, PyTorch, NumPy, Pandas, Apache Cassandra, Apache Spark, MongoDB, Flask, AWS, Docker, ReactJS}
+        \small{MongoDB, Flask, AWS, Docker, ReactJS, PyTorch, Pandas}
+\end{description}
+\end{tabular}
+
+}
+\end{document}
